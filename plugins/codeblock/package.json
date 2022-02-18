@@ -1,6 +1,6 @@
 {
   "name": "aomao_plugin-codeblock",
-  "version": "2.7.32",
+  "version": "2.7.33",
   "description": "代码块",
   "keywords": [
     "codeblock",
@@ -28,9 +28,9 @@
     "url": "https://github.com/yanmao-cc/am-editor/issues"
   },
   "dependencies": {
-    "aomao_engine": "^2.7.33",
     "@babel/runtime": "^7.13.10",
     "antd": "^4.14.1",
+    "aomao_engine": "^2.7.33",
     "codemirror": "^5.61.1",
     "lodash": "^4.17.21",
     "react": "^17.0.2",

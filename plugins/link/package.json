@@ -1,6 +1,6 @@
 {
   "name": "aomao_plugin-link",
-  "version": "2.7.32",
+  "version": "2.7.33",
   "description": "> TODO: description",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -24,9 +24,9 @@
     "url": "https://github.com/yanmao-cc/am-editor/issues"
   },
   "dependencies": {
-	  "aomao_engine": "^2.7.33",
     "@babel/runtime": "^7.13.10",
     "antd": "^4.12.3",
+    "aomao_engine": "^2.7.33",
     "classnames-es-ts": "^2.2.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.2"

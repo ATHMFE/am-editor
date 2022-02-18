@@ -1,6 +1,6 @@
 {
   "name": "aomao_plugin-link-vue",
-  "version": "2.7.32",
+  "version": "2.7.33",
   "description": "> TODO: description",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -24,9 +24,9 @@
     "url": "https://github.com/yanmao-cc/am-editor/issues"
   },
   "dependencies": {
-	  "aomao_engine": "^2.7.33",
     "@babel/runtime": "^7.13.10",
     "ant-design-vue": "^2.2.6",
+    "aomao_engine": "^2.7.33",
     "vue": "^3.2.9"
   },
   "devDependencies": {

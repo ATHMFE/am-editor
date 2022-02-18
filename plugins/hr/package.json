@@ -1,6 +1,6 @@
 {
   "name": "aomao_plugin-hr",
-  "version": "2.7.32",
+  "version": "2.7.33",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -20,7 +20,7 @@
     "url": "https://github.com/yanmao-cc/am-editor/issues"
   },
   "dependencies": {
-	  "aomao_engine": "^2.7.33",
-    "@babel/runtime": "^7.13.10"
+    "@babel/runtime": "^7.13.10",
+    "aomao_engine": "^2.7.33"
   }
 }
