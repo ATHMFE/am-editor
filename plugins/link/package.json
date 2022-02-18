@@ -1,5 +1,5 @@
 {
-  "name": "@aomao/plugin-link",
+  "name": "aomao_plugin-link",
   "version": "2.7.32",
   "description": "> TODO: description",
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
     "url": "https://github.com/yanmao-cc/am-editor/issues"
   },
   "dependencies": {
-    "@aomao/engine": "^2.7.32",
+	  "aomao_engine": "^2.7.33",
     "@babel/runtime": "^7.13.10",
     "antd": "^4.12.3",
     "classnames-es-ts": "^2.2.7",
