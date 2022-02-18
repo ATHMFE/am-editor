@@ -1,5 +1,5 @@
 {
-    "name": "@aomao/toolbar",
+    "name": "aomao_toolbar",
     "version": "2.7.33",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",

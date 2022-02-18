@@ -1,5 +1,5 @@
 {
-    "name": "@aomao/toolbar-vue",
+    "name": "aomao_toolbar-vue",
     "version": "2.7.33",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
