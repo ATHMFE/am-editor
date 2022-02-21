@@ -28,6 +28,6 @@
     "@antv/hierarchy": "^0.6.7",
     "@antv/x6": "^1.23.10",
     "@babel/runtime": "^7.13.10",
-    "aomao_engine": "^2.7.33"
+    "aomao_engine": "^2.7.37"
   }
 }

@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "aomao_engine": "^2.7.33"
+    "aomao_engine": "^2.7.37"
   }
 }
