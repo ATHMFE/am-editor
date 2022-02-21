@@ -10,7 +10,7 @@ import {
 	DATA_ID,
 	DATA_ELEMENT,
 	UI,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Outline from './outline';
 import type { OutlineData } from './outline';
 import './index.css';

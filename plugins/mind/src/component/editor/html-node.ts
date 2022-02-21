@@ -1,6 +1,6 @@
 import { NodeData } from '../../types';
 import { Graph, Node, Cell } from '@antv/x6';
-import { $, DATA_ELEMENT, EDITABLE } from '@aomao/engine';
+import { $, DATA_ELEMENT, EDITABLE } from 'aomao_engine';
 
 const template = `<div class="mind-container" readonly="true">
     <div class="mind-body">

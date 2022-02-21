@@ -15,7 +15,7 @@ import {
 	transformCustomTags,
 	EditorInterface,
 	isEngine,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Template from './template';
 
 class Helper implements HelperInterface {

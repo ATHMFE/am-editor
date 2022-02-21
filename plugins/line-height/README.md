@@ -1,18 +1,18 @@
-# @aomao/plugin-line-height
+# aomao_plugin-line-height
 
 行高插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-line-height
+$ yarn add aomao_plugin-line-height
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Lineheight from '@aomao/plugin-line-height';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Lineheight from 'aomao_plugin-line-height';
 
 new Engine(...,{ plugins:[Lineheight] })
 ```

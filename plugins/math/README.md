@@ -1,18 +1,18 @@
-# @aomao/plugin-math
+# aomao_plugin-math
 
 数学公式
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-math
+$ yarn add aomao_plugin-math
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Math , { MathComponent } from '@aomao/plugin-math';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Math , { MathComponent } from 'aomao_plugin-math';
 
 new Engine(...,{ plugins:[ Math ] , cards:[ MathComponent ]})
 ```

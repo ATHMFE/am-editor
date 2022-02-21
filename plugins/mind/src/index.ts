@@ -1,4 +1,4 @@
-import { Plugin, isEngine, SchemaBlock, PluginOptions } from '@aomao/engine';
+import { Plugin, isEngine, SchemaBlock, PluginOptions } from 'aomao_engine';
 import MindComponent from './component';
 
 export interface Options extends PluginOptions {}

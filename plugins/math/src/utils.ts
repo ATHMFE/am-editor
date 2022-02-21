@@ -1,4 +1,4 @@
-import { EditorInterface } from '@aomao/engine';
+import { EditorInterface } from 'aomao_engine';
 
 export const getLocales = <T extends string | {} = string>(
 	editor: EditorInterface,

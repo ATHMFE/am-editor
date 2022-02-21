@@ -4,7 +4,7 @@ import {
 	MarkPlugin,
 	PluginOptions,
 	SchemaMark,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface BackcolorOptions extends PluginOptions {
 	hotkey?: { key: string; args: Array<string> };

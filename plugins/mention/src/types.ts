@@ -1,4 +1,4 @@
-import { CardInterface, NodeInterface, PluginOptions } from '@aomao/engine';
+import { CardInterface, NodeInterface, PluginOptions } from 'aomao_engine';
 
 export type MentionItem = { key?: string; name: string; avatar?: string };
 export interface MentionOptions extends PluginOptions {

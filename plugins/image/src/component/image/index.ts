@@ -1,5 +1,5 @@
 import type { ImageOptions, PswpInterface } from '@/types';
-import type { EditorInterface, NodeInterface } from '@aomao/engine';
+import type { EditorInterface, NodeInterface } from 'aomao_engine';
 import {
 	$,
 	isEngine,
@@ -9,7 +9,7 @@ import {
 	isMobile,
 	Resizer,
 	CardType,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { ImageValue } from '..';
 import Pswp from '../pswp';
 import './index.css';

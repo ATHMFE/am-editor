@@ -1,18 +1,18 @@
-# @aomao/plugin-bold
+# aomao_plugin-bold
 
 加粗样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-bold
+$ yarn add aomao_plugin-bold
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Bold from '@aomao/plugin-bold';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Bold from 'aomao_plugin-bold';
 
 new Engine(...,{ plugins:[Bold] })
 ```

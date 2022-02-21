@@ -7,7 +7,7 @@ import {
 	isHotkey,
 	isMobile,
 	NodeInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { CodeBlockEditorInterface, Options } from './types';
 const qa = [
 	'c',

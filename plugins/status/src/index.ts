@@ -9,7 +9,7 @@ import {
 	encodeCardValue,
 	decodeCardValue,
 	CARD_VALUE_KEY,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import StatusComponent, { StatusValue } from './components';
 import locales from './locales';
 import { StatusOptions } from './types';

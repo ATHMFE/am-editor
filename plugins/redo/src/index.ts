@@ -1,4 +1,4 @@
-import { isEngine, Plugin, PluginOptions } from '@aomao/engine';
+import { isEngine, Plugin, PluginOptions } from 'aomao_engine';
 
 export interface RedoOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

@@ -1,7 +1,7 @@
 import { NodeData, ShapeData } from '../../types';
 import { Graph, Model, Cell, Node, Edge, Addon } from '@antv/x6';
 import Hierarchy from '@antv/hierarchy';
-import { $, DATA_ELEMENT, NodeInterface, UI } from '@aomao/engine';
+import { $, DATA_ELEMENT, NodeInterface, UI } from 'aomao_engine';
 import HtmlNode from './html-node';
 import './index.css';
 

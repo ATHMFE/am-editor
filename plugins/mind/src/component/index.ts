@@ -8,7 +8,7 @@ import {
 	isEngine,
 	NodeInterface,
 	Parser,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import GraphEditor from './editor';
 
 export interface MindValue extends CardValue {

@@ -1,5 +1,5 @@
 import { PswpInterface } from '@/types';
-import { $, EditorInterface, Tooltip } from '@aomao/engine';
+import { $, EditorInterface, Tooltip } from 'aomao_engine';
 
 class Zoom {
 	private pswp: PswpInterface;

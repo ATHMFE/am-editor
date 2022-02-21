@@ -1,4 +1,4 @@
-import { isMacos } from '@aomao/engine';
+import { isMacos } from 'aomao_engine';
 
 export default {
 	math: {

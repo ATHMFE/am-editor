@@ -1,4 +1,4 @@
-import { MarkPlugin, PluginOptions } from '@aomao/engine';
+import { MarkPlugin, PluginOptions } from 'aomao_engine';
 import './index.css';
 
 export interface MarkOptions extends PluginOptions {

@@ -7,7 +7,7 @@ import {
 	isMobile,
 	EditorInterface,
 	Position,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import tinycolor2, { ColorInput } from 'tinycolor2';
 import Palette from './palette';
 
@@ -147,15 +147,15 @@ class Color {
 								: ''
 					  }`
 					: ''
-			}"><svg 
+			}"><svg
             style="fill: ${
 				color.color.toUpperCase() === '#8C8C8C' ? '#FFFFFF' : '#8C8C8C'
-			}; 
+			};
             display: ${
 				color.color === this.#color && display !== false
 					? 'block'
 					: 'none'
-			};" 
+			};"
             viewBox="0 0 18 18"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z" /></svg></span></span>`);
 			item.on('mousedown', (event: MouseEvent) => {
 				event.preventDefault();

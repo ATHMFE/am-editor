@@ -4,7 +4,7 @@ import {
 	Plugin,
 	SchemaGlobal,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface LineHeightOptions extends PluginOptions {
 	hotkey?: string;

@@ -18,7 +18,7 @@
 <script lang="ts">
 import { defineComponent, onMounted, onUnmounted, ref, reactive } from 'vue'
 import { merge, omit } from 'lodash';
-import { isMobile } from '@aomao/engine'
+import { isMobile } from 'aomao_engine'
 import { ToolbarButtonProps, CollapseItemProps, ToolbarColorProps, ToolbarDropdownProps, GroupDataProps, ToolbarCollapseGroupProps, toolbarProps } from '../types'
 import AmGroup from './group.vue'
 import locales from '../locales';
@@ -32,7 +32,7 @@ export default defineComponent({
         AmGroup
     },
     props:toolbarProps,
-    
+
     setup(props){
         let groups = ref<Array<GroupDataProps>>([])
         const update = () => {
@@ -127,7 +127,7 @@ export default defineComponent({
         //计算移动浏览器的视图变化
         const calcuMobileView = () => {
           if(!props.engine.isFocus() || props.engine.readonly) return
-        
+
           if(caluTimeoutRef.value) clearTimeout(caluTimeoutRef.value as NodeJS.Timeout);
           caluTimeoutRef.value = setTimeout(() => {
             const rect = toolbarRef.value?.getBoundingClientRect()
@@ -180,7 +180,7 @@ export default defineComponent({
             }
             updateByTimeout()
         })
-        
+
         onUnmounted(() => {
             props.engine.off("select",updateByTimeout)
             props.engine.off("change",updateByTimeout)

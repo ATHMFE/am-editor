@@ -6,7 +6,7 @@ import {
 	isMobile,
 	NodeInterface,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 const CHECKBOX_CLASS = 'data-checkbox';

@@ -6,7 +6,7 @@ import {
 	ToolbarItemOptions,
 	SelectStyleType,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 export interface HrValue extends CardValue {}
 class Hr<T extends HrValue = HrValue> extends Card<T> {

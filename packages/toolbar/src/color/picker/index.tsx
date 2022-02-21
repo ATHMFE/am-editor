@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from 'aomao_engine';
 import ColorPickerGroup, { ColorPickerGroupProps } from './group';
 import Palette from './palette';
 import ColorPickerItem from './item';

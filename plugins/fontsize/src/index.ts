@@ -3,7 +3,7 @@ import {
 	MarkPlugin,
 	isEngine,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface FontsizeOptions extends PluginOptions {
 	hotkey?: { key: string; args: Array<string> };

@@ -8,7 +8,7 @@ import {
 	PluginOptions,
 	DATA_ELEMENT,
 	UI,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 export interface PaintformatOptions extends PluginOptions {

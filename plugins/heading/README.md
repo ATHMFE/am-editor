@@ -1,18 +1,18 @@
-# @aomao/plugin-heading
+# aomao_plugin-heading
 
 标题样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-heading
+$ yarn add aomao_plugin-heading
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Heading from '@aomao/plugin-heading';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Heading from 'aomao_plugin-heading';
 
 new Engine(...,{ plugins:[Heading] })
 ```

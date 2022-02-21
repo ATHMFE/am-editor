@@ -6,7 +6,7 @@ import {
 	SchemaBlock,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface OrderedListOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

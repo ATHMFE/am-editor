@@ -1,6 +1,6 @@
 import React from 'react';
-import { CARD_SELECTOR, isEngine, Range } from '@aomao/engine';
-import type { EditorInterface } from '@aomao/engine';
+import { CARD_SELECTOR, isEngine, Range } from 'aomao_engine';
+import type { EditorInterface } from 'aomao_engine';
 import type {
 	ButtonProps,
 	DropdownProps,

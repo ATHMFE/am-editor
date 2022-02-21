@@ -1,4 +1,4 @@
-import { PluginOptions } from '@aomao/engine';
+import { PluginOptions } from 'aomao_engine';
 
 export interface VideoOptions extends PluginOptions {
 	onBeforeRender?: (

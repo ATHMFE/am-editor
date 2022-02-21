@@ -1,18 +1,18 @@
-# @aomao/plugin-mention
+# aomao_plugin-mention
 
 提及插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mention
+$ yarn add aomao_plugin-mention
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mention, { MentionComponent } from '@aomao/plugin-mention';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Mention, { MentionComponent } from 'aomao_plugin-mention';
 
 new Engine(...,{ plugins:[Mention], cards: [MentionComponent] })
 ```

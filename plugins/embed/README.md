@@ -1,4 +1,4 @@
-# @aomao/plugin-embed
+# aomao_plugin-embed
 
 嵌入网址
 
@@ -7,14 +7,14 @@
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-embed
+$ yarn add aomao_plugin-embed
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Embed , { EmbedComponent } from '@aomao/plugin-embed';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Embed , { EmbedComponent } from 'aomao_plugin-embed';
 
 new Engine(...,{ plugins:[ Embed ] , cards:[ EmbedComponent ]})
 ```

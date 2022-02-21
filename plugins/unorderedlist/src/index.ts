@@ -6,7 +6,7 @@ import {
 	isEngine,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface UnorderedlistOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

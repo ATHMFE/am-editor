@@ -1,24 +1,24 @@
-# @aomao/plugin-codeblock
+# aomao_plugin-codeblock
 
 代码块插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-codeblock
+$ yarn add aomao_plugin-codeblock
 ```
 
 `Vue` 使用
 
 ```bash
-$ yarn add @aomao/plugin-codeblock-vue
+$ yarn add aomao_plugin-codeblock-vue
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import CodeBlock , { CodeBlockComponent } from '@aomao/plugin-codeblock';
+import Engine, { EngineInterface } from 'aomao_engine';
+import CodeBlock , { CodeBlockComponent } from 'aomao_plugin-codeblock';
 
 new Engine(...,{ plugins:[CodeBlock] , cards:[CodeBlockComponent]})
 ```

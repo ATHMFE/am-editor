@@ -1,18 +1,18 @@
-# @aomao/plugin-undo
+# aomao_plugin-undo
 
 撤销历史插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-undo
+$ yarn add aomao_plugin-undo
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Undo from '@aomao/plugin-undo';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Undo from 'aomao_plugin-undo';
 
 new Engine(...,{ plugins:[Undo] })
 ```

@@ -5,7 +5,7 @@ import {
 	isEngine,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Toolbar from './toolbar';
 import locales from './locales';
 

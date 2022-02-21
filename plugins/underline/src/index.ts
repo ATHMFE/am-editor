@@ -1,9 +1,9 @@
-import { $, MarkPlugin } from '@aomao/engine';
+import { $, MarkPlugin } from 'aomao_engine';
 import type {
 	ConversionFromValue,
 	ConversionToValue,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface UnderlineOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

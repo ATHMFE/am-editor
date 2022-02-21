@@ -1,22 +1,22 @@
-# @aomao/plugin-paintformat
+# aomao_plugin-paintformat
 
 格式刷插件
 
 支持所有 mark 标签插件
 
-block 支持以下插件：`@aomao/plugin-heading` `@aomao/plugin-orderlist` `@aomao/plugin-unorderedlist`
+block 支持以下插件：`aomao_plugin-heading` `aomao_plugin-orderlist` `aomao_plugin-unorderedlist`
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-paintformat
+$ yarn add aomao_plugin-paintformat
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Paintformat from '@aomao/plugin-paintformat';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Paintformat from 'aomao_plugin-paintformat';
 
 new Engine(...,{ plugins:[Paintformat] })
 ```
@@ -25,7 +25,7 @@ new Engine(...,{ plugins:[Paintformat] })
 
 ### 移除
 
-移除样式命令，或提供方法。默认为 removeformat ，需要添加 `@aomao/plugin-removeformat` 插件
+移除样式命令，或提供方法。默认为 removeformat ，需要添加 `aomao_plugin-removeformat` 插件
 
 ```ts
 removeCommand?:string | ((range:RangeInterface) => void);

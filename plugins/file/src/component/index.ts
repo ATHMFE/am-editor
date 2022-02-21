@@ -13,7 +13,7 @@ import {
 	Tooltip,
 	SelectStyleType,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 export interface FileValue extends CardValue {

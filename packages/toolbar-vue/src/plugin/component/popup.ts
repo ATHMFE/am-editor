@@ -1,6 +1,6 @@
 import { createApp, App } from 'vue';
-import { $, isEngine, isMobile, Range, UI_SELECTOR } from '@aomao/engine';
-import type { NodeInterface, EditorInterface } from '@aomao/engine';
+import { $, isEngine, isMobile, Range, UI_SELECTOR } from 'aomao_engine';
+import type { NodeInterface, EditorInterface } from 'aomao_engine';
 import Toolbar from '../../components/toolbar.vue';
 import type { GroupItemProps } from '../../types';
 

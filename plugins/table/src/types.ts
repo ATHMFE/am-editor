@@ -4,7 +4,7 @@ import {
 	ClipboardData,
 	NodeInterface,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { EventEmitter2 } from 'eventemitter2';
 
 export interface HelperInterface {

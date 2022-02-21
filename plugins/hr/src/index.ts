@@ -9,7 +9,7 @@ import {
 	PluginOptions,
 	CARD_VALUE_KEY,
 	decodeCardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import HrComponent, { HrValue } from './component';
 
 export interface HrOptions extends PluginOptions {

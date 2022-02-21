@@ -13,7 +13,7 @@ import {
 	PluginOptions,
 	READY_CARD_KEY,
 	decodeCardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import CodeBlockComponent, {
 	CodeBlockEditor,
 	CodeBlockValue,

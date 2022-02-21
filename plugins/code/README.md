@@ -1,18 +1,18 @@
-# @aomao/plugin-code
+# aomao_plugin-code
 
 行内代码样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-code
+$ yarn add aomao_plugin-code
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Code from '@aomao/plugin-code';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Code from 'aomao_plugin-code';
 
 new Engine(...,{ plugins:[Code] })
 ```

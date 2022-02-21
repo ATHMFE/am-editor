@@ -12,8 +12,8 @@ import {
 	decodeCardValue,
 	CARD_VALUE_KEY,
 	transformCustomTags,
-} from '@aomao/engine';
-import { DATA_ID } from '@aomao/engine';
+} from 'aomao_engine';
+import { DATA_ID } from 'aomao_engine';
 import TableComponent, { Template, Helper } from './component';
 import locales from './locale';
 import { TableInterface, TableOptions, TableValue } from './types';

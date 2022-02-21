@@ -4,12 +4,12 @@ import {
 	isEngine,
 	isSafari,
 	Plugin,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import type {
 	EditorInterface,
 	NodeInterface,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import type { CollapseItemProps } from '../collapse/item';
 import ToolbarComponent, { ToolbarPopup } from './component';
 import type { ToolbarValue, GroupItemProps } from './component';

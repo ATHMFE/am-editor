@@ -15,7 +15,7 @@ import {
 	encodeCardValue,
 	removeUnit,
 	CardType,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { ImageOptions } from '.';
 import ImageComponent, { ImageValue } from './component';
 

@@ -6,7 +6,7 @@ import {
 	ResizerInterface,
 	CardValue,
 	removeUnit,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import {
 	$,
 	Card,
@@ -16,7 +16,7 @@ import {
 	isEngine,
 	sanitizeUrl,
 	Resizer,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 export type VideoStatus = 'uploading' | 'transcoding' | 'done' | 'error';

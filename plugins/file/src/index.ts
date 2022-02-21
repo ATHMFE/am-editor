@@ -10,7 +10,7 @@ import {
 	Plugin,
 	READY_CARD_KEY,
 	SchemaInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import FileComponent from './component';
 import type { FileValue } from './component';
 import FileUploader from './uploader';

@@ -5,7 +5,7 @@ import {
 	NodeInterface,
 	Plugin,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { CollapseItemProps, GroupItemProps } from '../types';
 import locales from '../locales';
 import ToolbarComponent, { ToolbarPopup } from './component';

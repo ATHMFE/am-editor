@@ -14,7 +14,7 @@ import {
 	Scrollbar,
 	SelectStyleType,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import {
 	ControllBarInterface,
 	HelperInterface,

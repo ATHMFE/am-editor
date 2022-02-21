@@ -4,7 +4,7 @@ import {
 	MarkPlugin,
 	NodeInterface,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface FontfamilyOptions extends PluginOptions {
 	hotkey?: { key: string; args: Array<string> };

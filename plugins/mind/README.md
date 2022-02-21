@@ -1,11 +1,11 @@
-# `@aomao/plugin-mind`
+# `aomao_plugin-mind`
 
 > TODO: description
 
 ## Usage
 
 ```
-const pluginMind = require('@aomao/plugin-mind');
+const pluginMind = require('aomao_plugin-mind');
 
 // TODO: DEMONSTRATE API
 ```

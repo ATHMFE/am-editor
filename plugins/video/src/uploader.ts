@@ -10,7 +10,7 @@ import {
 	CARD_VALUE_KEY,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 import VideoComponent, { VideoValue, VideoStatus } from './component';
 

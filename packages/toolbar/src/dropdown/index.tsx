@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import classnames from 'classnames-es-ts';
-import type { EngineInterface, Placement } from '@aomao/engine';
+import type { EngineInterface, Placement } from 'aomao_engine';
 import Button from '../button';
 import DropdownList, { DropdownListItem } from './list';
 import { useRight } from '../hooks';

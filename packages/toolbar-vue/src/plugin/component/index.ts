@@ -7,7 +7,7 @@ import {
 	CardType,
 	isServer,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import {
 	CollapseGroupProps,
 	CollapseItemProps,

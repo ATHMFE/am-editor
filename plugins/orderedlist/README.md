@@ -1,18 +1,18 @@
-# @aomao/plugin-orderedlist
+# aomao_plugin-orderedlist
 
 有序列表插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-orderedlist
+$ yarn add aomao_plugin-orderedlist
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Orderedlist from '@aomao/plugin-orderedlist';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Orderedlist from 'aomao_plugin-orderedlist';
 
 new Engine(...,{ plugins:[Orderedlist] })
 ```

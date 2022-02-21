@@ -11,7 +11,7 @@ import {
 	encodeCardValue,
 	READY_CARD_KEY,
 	CARD_VALUE_KEY,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import MentionComponent, { MentionValue } from './component';
 import locales from './locales';
 import { MentionOptions } from './types';

@@ -1,5 +1,5 @@
 import { Editor, EditorConfiguration } from 'codemirror';
-import { EditorInterface, NodeInterface } from '@aomao/engine';
+import { EditorInterface, NodeInterface } from 'aomao_engine';
 
 export type Options = {
 	onSave?: (mode: string, value: string) => void;

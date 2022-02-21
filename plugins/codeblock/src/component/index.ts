@@ -9,7 +9,7 @@ import {
 	isServer,
 	ToolbarItemOptions,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import CodeBlockEditor from './editor';
 import renderSelect from './select';
 import modeDatas from './mode';

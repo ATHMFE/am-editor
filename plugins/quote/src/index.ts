@@ -5,7 +5,7 @@ import {
 	BlockPlugin,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 export interface QuoteOptions extends PluginOptions {

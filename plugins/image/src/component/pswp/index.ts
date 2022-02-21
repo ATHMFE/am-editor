@@ -7,7 +7,7 @@ import {
 	isHotkey,
 	isMobile,
 	NodeInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { PswpInterface } from '@/types';
 import Zoom from './zoom';
 import 'photoswipe/dist/photoswipe.css';

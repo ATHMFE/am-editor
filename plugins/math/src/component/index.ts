@@ -7,7 +7,7 @@ import {
 	isEngine,
 	NodeInterface,
 	Position,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { getLocales } from '../utils';
 import MathEditor from './editor';
 import './index.css';

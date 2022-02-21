@@ -1,5 +1,5 @@
 import React from 'react';
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from 'aomao_engine';
 import ColorPickerItem from './item';
 
 export type ColorPickerGroupProps = {

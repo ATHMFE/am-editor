@@ -1,4 +1,4 @@
-import { NodeInterface, InlinePlugin, PluginOptions } from '@aomao/engine';
+import { NodeInterface, InlinePlugin, PluginOptions } from 'aomao_engine';
 import './index.css';
 
 export interface CodeOptions extends PluginOptions {

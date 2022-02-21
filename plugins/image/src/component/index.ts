@@ -8,7 +8,7 @@ import {
 	isMobile,
 	NodeInterface,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Image, { Size } from './image';
 
 export interface ImageValue extends CardValue {

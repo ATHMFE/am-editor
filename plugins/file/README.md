@@ -1,18 +1,18 @@
-# @aomao/plugin-file
+# aomao_plugin-file
 
 文件插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-file
+$ yarn add aomao_plugin-file
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import File , { FileComponent , FileUploader } from '@aomao/plugin-file';
+import Engine, { EngineInterface } from 'aomao_engine';
+import File , { FileComponent , FileUploader } from 'aomao_plugin-file';
 
 new Engine(...,{ plugins:[ File , FileUploader ] , cards:[ FileComponent ]})
 ```

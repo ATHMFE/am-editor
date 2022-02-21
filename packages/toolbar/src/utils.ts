@@ -1,4 +1,4 @@
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from 'aomao_engine';
 
 export const autoGetHotkey = (
 	engine: EngineInterface,

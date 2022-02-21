@@ -7,7 +7,7 @@ import React, {
 	useRef,
 } from 'react';
 import classnames from 'classnames-es-ts';
-import { EngineInterface, isMobile } from '@aomao/engine';
+import { EngineInterface, isMobile } from 'aomao_engine';
 import ToolbarGroup from './group';
 import {
 	getToolbarDefaultConfig,

@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames-es-ts';
-import { isMobile } from '@aomao/engine';
-import type { Placement, EngineInterface } from '@aomao/engine';
+import { isMobile } from 'aomao_engine';
+import type { Placement, EngineInterface } from 'aomao_engine';
 import Popover from 'antd/es/popover';
 import Button, { ButtonProps } from '../button';
 import Dropdown, { DropdownProps } from '../dropdown';

@@ -17,7 +17,7 @@ import {
 	isMobile,
 	NodeInterface,
 	removeUnit,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Template from './template';
 
 class ControllBar extends EventEmitter2 implements ControllBarInterface {

@@ -1,18 +1,18 @@
-# @aomao/plugin-tasklist
+# aomao_plugin-tasklist
 
 任务列表插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-tasklist
+$ yarn add aomao_plugin-tasklist
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Tasklist , { CheckboxComponent } from '@aomao/plugin-tasklist';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Tasklist , { CheckboxComponent } from 'aomao_plugin-tasklist';
 
 new Engine(...,{ plugins:[Tasklist] , cards:[CheckboxComponent] })
 ```

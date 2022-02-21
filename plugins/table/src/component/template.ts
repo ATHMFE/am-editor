@@ -5,7 +5,7 @@ import {
 	EDITABLE,
 	UI,
 	transformCustomTags,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import {
 	TableValue,
 	TableMenu,

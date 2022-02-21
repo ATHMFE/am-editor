@@ -1,18 +1,18 @@
-# @aomao/plugin-italic
+# aomao_plugin-italic
 
 斜体样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-italic
+$ yarn add aomao_plugin-italic
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Italic from '@aomao/plugin-italic';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Italic from 'aomao_plugin-italic';
 
 new Engine(...,{ plugins:[Italic] })
 ```

@@ -1,18 +1,18 @@
-# @aomao/plugin-table
+# aomao_plugin-table
 
 表格插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-table
+$ yarn add aomao_plugin-table
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Table, { TableComponent } from '@aomao/plugin-table';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Table, { TableComponent } from 'aomao_plugin-table';
 
 new Engine(...,{ plugins:[Table] , cards:[TableComponent]})
 ```

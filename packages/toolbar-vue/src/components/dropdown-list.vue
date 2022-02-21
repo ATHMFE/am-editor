@@ -2,14 +2,14 @@
     <div
     :class="['toolbar-dropdown-list',`toolbar-dropdown-${direction || 'vertical'}`,{'toolbar-dropdown-dot': hasDot !== false},className]"
     >
-        <a-tooltip v-for="{ key , placement , title , direction , hasDot , content , className , icon, disabled } in items" :key="key" :placement="placement || 'right'" 
+        <a-tooltip v-for="{ key , placement , title , direction , hasDot , content , className , icon, disabled } in items" :key="key" :placement="placement || 'right'"
         :overlayStyle="(!!title || !!hotkeys[key]) && !isMobile ? {} : {display:'none'}"
         >
             <template #title>
                 <div v-if="!!title" class="toolbar-tooltip-title">{{title}}</div>
                 <div v-if="!!hotkeys[key]" class="toolbar-tooltip-hotkey" v-html="hotkeys[key]"></div>
             </template>
-            <a 
+            <a
             :class="['toolbar-dropdown-list-item',className, {'toolbar-dropdown-list-item-disabled': disabled}]"
             @click="triggerSelect($event,key)">
                 <span v-if="((typeof values === 'string' && values === key) || (Array.isArray(values) && values.indexOf(key) > -1)) &&
@@ -24,7 +24,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import ATooltip from "ant-design-vue/es/tooltip"
-import { formatHotkey, isMobile } from '@aomao/engine'
+import { formatHotkey, isMobile } from 'aomao_engine'
 import { dropdownListProps , DropdownListItem } from '../types'
 import { autoGetHotkey } from "../utils"
 import 'ant-design-vue/es/tooltip/style'

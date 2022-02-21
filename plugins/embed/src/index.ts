@@ -11,7 +11,7 @@ import {
 	PluginOptions,
 	READY_CARD_KEY,
 	SchemaInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import EmbedComponent, {
 	EmbedRenderBeforeEvent,
 	EmbedValue,

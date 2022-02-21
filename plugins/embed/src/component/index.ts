@@ -10,7 +10,7 @@ import {
 	ToolbarItemOptions,
 	sanitizeUrl,
 	isEngine,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import './index.css';
 
 export interface EmbedValue extends CardValue {
@@ -175,7 +175,7 @@ class EmbedComponent<V extends EmbedValue = EmbedValue> extends Card<V> {
                         <input data-role="url" placeholder="${
 							placeholder || locales['placeholder']
 						}" spellcheck="false" class="data-embed-input" value="" autocomplete="off"/>
-                    </span>      
+                    </span>
                     <span class="data-embed-button">
                         <button class="data-embed-ui-button" data-role="submit">
                             <span>${locales['submit']}</span>

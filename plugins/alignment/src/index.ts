@@ -4,7 +4,7 @@ import {
 	ElementPlugin,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface AlignmentOptions extends PluginOptions {
 	hotkey?: {

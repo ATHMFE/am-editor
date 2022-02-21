@@ -9,7 +9,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	CARD_VALUE_KEY,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import CheckboxComponent, { CheckboxValue } from './checkbox';
 import './index.css';
 

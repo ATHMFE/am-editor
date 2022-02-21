@@ -8,7 +8,7 @@ import {
 	TRIGGER_CARD_ID,
 	isMobile,
 	isHotkey,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { getLocales } from '../utils';
 
 export type Options = {

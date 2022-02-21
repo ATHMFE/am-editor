@@ -1,24 +1,24 @@
-# @aomao/plugin-link
+# aomao_plugin-link
 
 链接插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-link
+$ yarn add aomao_plugin-link
 ```
 
 `Vue` 使用
 
 ```bash
-$ yarn add @aomao/plugin-link-vue
+$ yarn add aomao_plugin-link-vue
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Link from '@aomao/plugin-link';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Link from 'aomao_plugin-link';
 
 new Engine(...,{ plugins:[Link] })
 ```

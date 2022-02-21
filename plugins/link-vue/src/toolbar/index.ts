@@ -6,7 +6,7 @@ import {
 	NodeInterface,
 	Position,
 	UI,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { createApp, App } from 'vue';
 import AmEditor from './editor.vue';
 import AmPreview from './preview.vue';

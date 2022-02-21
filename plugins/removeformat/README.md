@@ -1,4 +1,4 @@
-# @aomao/plugin-removeformat
+# aomao_plugin-removeformat
 
 移除样式插件
 
@@ -9,14 +9,14 @@
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-removeformat
+$ yarn add aomao_plugin-removeformat
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Removeformat from '@aomao/plugin-removeformat';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Removeformat from 'aomao_plugin-removeformat';
 
 new Engine(...,{ plugins:[Removeformat] })
 ```

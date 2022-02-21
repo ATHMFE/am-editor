@@ -1,4 +1,4 @@
-# @aomao/plugin-mark-range
+# aomao_plugin-mark-range
 
 光标区域标记插件
 
@@ -7,14 +7,14 @@
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mark-range
+$ yarn add aomao_plugin-mark-range
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import MarkRange from '@aomao/plugin-mark-range';
+import Engine, { EngineInterface } from 'aomao_engine';
+import MarkRange from 'aomao_plugin-mark-range';
 
 new Engine(...,{ plugins:[MarkRange] })
 ```

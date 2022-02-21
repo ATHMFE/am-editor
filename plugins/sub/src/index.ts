@@ -4,7 +4,7 @@ import {
 	ConversionToValue,
 	MarkPlugin,
 	PluginOptions,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface SubOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

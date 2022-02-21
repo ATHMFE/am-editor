@@ -1,5 +1,5 @@
 import { StatusOptions } from '@/types';
-import { CardValue } from '@aomao/engine';
+import { CardValue } from 'aomao_engine';
 import {
 	$,
 	Card,
@@ -9,7 +9,7 @@ import {
 	Position,
 	toHex,
 	SelectStyleType,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import StatusEditor from './editor';
 import './index.css';
 

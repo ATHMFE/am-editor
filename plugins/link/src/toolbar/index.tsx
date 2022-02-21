@@ -9,7 +9,7 @@ import {
 	Position,
 	DATA_ELEMENT,
 	UI,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import Editor from './editor';
 import Preview from './preview';
 

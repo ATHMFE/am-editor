@@ -13,7 +13,7 @@ import {
 	CardValue,
 	unescape,
 	AjaxInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import CollapseComponent, { CollapseComponentInterface } from './collapse';
 import { MentionItem } from '../types';
 import './index.css';

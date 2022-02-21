@@ -1,18 +1,18 @@
-# @aomao/plugin-redo
+# aomao_plugin-redo
 
 重做历史插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-redo
+$ yarn add aomao_plugin-redo
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Redo from '@aomao/plugin-redo';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Redo from 'aomao_plugin-redo';
 
 new Engine(...,{ plugins:[Redo] })
 ```

@@ -9,7 +9,7 @@ import {
 	Scrollbar,
 	unescape,
 	escape,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { MentionItem, MentionOptions } from '../types';
 
 export type Options = {

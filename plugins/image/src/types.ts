@@ -1,4 +1,4 @@
-import { CardType, NodeInterface, PluginOptions } from '@aomao/engine';
+import { CardType, NodeInterface, PluginOptions } from 'aomao_engine';
 import { EventEmitter2 } from 'eventemitter2';
 
 export interface PswpInterface extends EventEmitter2 {

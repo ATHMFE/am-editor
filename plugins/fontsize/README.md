@@ -1,18 +1,18 @@
-# @aomao/plugin-fontsize
+# aomao_plugin-fontsize
 
 字体大小插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-fontsize
+$ yarn add aomao_plugin-fontsize
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Fontsize from '@aomao/plugin-fontsize';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Fontsize from 'aomao_plugin-fontsize';
 
 new Engine(...,{ plugins:[Fontsize] })
 ```

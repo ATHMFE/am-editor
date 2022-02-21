@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Tooltip from 'antd/es/tooltip';
 import classnames from 'classnames-es-ts';
-import { formatHotkey, isMobile } from '@aomao/engine';
-import type { EngineInterface, Placement } from '@aomao/engine';
+import { formatHotkey, isMobile } from 'aomao_engine';
+import type { EngineInterface, Placement } from 'aomao_engine';
 import { autoGetHotkey } from '../utils';
 import 'antd/es/tooltip/style';
 import './index.css';

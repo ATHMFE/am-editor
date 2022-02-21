@@ -7,8 +7,8 @@ import {
 	isMobile,
 	Range,
 	UI_SELECTOR,
-} from '@aomao/engine';
-import type { NodeInterface, EditorInterface } from '@aomao/engine';
+} from 'aomao_engine';
+import type { NodeInterface, EditorInterface } from 'aomao_engine';
 import Toolbar from '../../Toolbar';
 import type { GroupItemProps } from '../../Toolbar';
 

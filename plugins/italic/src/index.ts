@@ -1,4 +1,4 @@
-import { MarkPlugin, PluginOptions } from '@aomao/engine';
+import { MarkPlugin, PluginOptions } from 'aomao_engine';
 
 export interface ItalicOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

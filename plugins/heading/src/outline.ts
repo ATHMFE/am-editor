@@ -5,7 +5,7 @@ import {
 	NodeInterface,
 	$,
 	isNodeEntry,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export type OutlineData = {
 	id: string;

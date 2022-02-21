@@ -7,7 +7,7 @@ import {
 	CardType,
 	isServer,
 	CardValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { CollapseGroupProps } from '../../collapse/group';
 import { CollapseItemProps } from '../../collapse/item';
 import { getToolbarDefaultConfig } from '../../config/toolbar';

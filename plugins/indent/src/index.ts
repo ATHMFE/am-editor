@@ -10,7 +10,7 @@ import {
 	PluginOptions,
 	ConversionFromValue,
 	ConversionToValue,
-} from '@aomao/engine';
+} from 'aomao_engine';
 
 export interface IndentOptions extends PluginOptions {
 	hotkey?: {

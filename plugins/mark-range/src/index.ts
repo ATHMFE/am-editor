@@ -20,7 +20,7 @@ import Engine, {
 	View,
 	EditorInterface,
 	CardInterface,
-} from '@aomao/engine';
+} from 'aomao_engine';
 import { Path } from 'sharedb';
 
 export interface MarkRangeOptions extends PluginOptions {

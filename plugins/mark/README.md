@@ -1,18 +1,18 @@
-# @aomao/plugin-mark
+# aomao_plugin-mark
 
 标记样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mark
+$ yarn add aomao_plugin-mark
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mark from '@aomao/plugin-mark';
+import Engine, { EngineInterface } from 'aomao_engine';
+import Mark from 'aomao_plugin-mark';
 
 new Engine(...,{ plugins:[Mark] })
 ```
