@@ -1,6 +1,6 @@
 {
     "name": "aomao_plugin-mention",
-    "version": "2.7.36",
+    "version": "2.7.37",
     "description": "提到 @",
     "publishConfig": {
         "access": "public"

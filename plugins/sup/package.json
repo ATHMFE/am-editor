@@ -1,6 +1,6 @@
 {
   "name": "aomao_plugin-sup",
-  "version": "2.7.36",
+  "version": "2.7.37",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
